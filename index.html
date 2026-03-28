@@ -1,10 +1,362 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Student Portfolio</title>
-        <link rel="icon"
-    </head>
-    <body>
-        
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alex Chen — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#">SivaBalan<em>.</em></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-eyebrow">Open to Internships &amp; Freelance Work</div>
+        <h1 class="hero-headline">
+          Creative developer.<br>
+          <span class="hl">Many skills,</span><br>one vision.
+        </h1>
+        <p class="hero-sub">
+          I'm SivaBalan— a passionate developer and creative professional
+          specialising in web development, video editing, graphic design,
+          and content creation. Available for internships and freelance projects.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact"  class="btn btn-outline">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-banner"></div>
+        <div class="card-avatar-wrap">
+          <div class="card-avatar">SB</div>
+          <div class="card-badge">Available for hire</div>
+        </div>
+        <div class="card-content">
+          <div class="card-name">SivaBalan</div>
+          <div class="card-role">Web Developer · Video Editor · Graphic Designer</div>
+          <div class="card-divider"></div>
+          <div class="card-meta">
+            <div class="card-meta-row">
+              <div class="card-meta-icon">💼</div>
+              <div class="card-meta-text">
+                <strong>Seeking Internship</strong>
+                <span>Web Dev · Design · Content Creation</span>
+              </div>
+            </div>
+            <div class="card-meta-row">
+              <div class="card-meta-icon">🚀</div>
+              <div class="card-meta-text">
+                <strong>Freelancer</strong>
+                <span>Open for projects &amp; collaborations</span>
+              </div>
+            </div>
+            <div class="card-meta-row">
+              <div class="card-meta-icon">💻</div>
+              <div class="card-meta-text">
+                <strong>Tech Stack</strong>
+                <span>C/C++ · Python · Java · Linux · Git</span>
+              </div>
+            </div>
+            <div class="card-meta-row">
+              <div class="card-meta-icon">📍</div>
+              <div class="card-meta-text">
+                <strong>Location</strong>
+                <span>Open to remote &amp; on-site</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="eyebrow">About</div>
+      <h2 class="section-heading">Passionate about creating,<br><span>driven to deliver.</span></h2>
+      <div class="about-layout">
+        <div class="about-copy reveal">
+          <p>I'm <strong>SivaBalan</strong>, a developer and creative professional with a broad skill set spanning web development, video editing, graphic design, and content creation. I love turning ideas into polished, real-world products.</p>
+          <p>On the technical side, I work with <strong>C, C++, Python, and Java</strong>, and I'm comfortable in <strong>Ubuntu Linux</strong> environments using the command line and managing projects with <strong>GitHub</strong>.</p>
+          <p>I'm currently <strong>seeking an internship</strong> where I can grow professionally while contributing real value. I also work as a <strong>freelancer</strong> — building websites, editing videos, creating graphics, and producing content for clients.</p>
+          <p>If you have a project or opportunity that needs someone who codes <em>and</em> creates, I'd love to hear from you.</p>
+          <a href="#" class="btn btn-outline">Download CV ↓</a>
+        </div>
+        <div class="stats-grid reveal">
+          <div class="stat-tile">
+            <div class="stat-number">3<em>+</em></div>
+            <div class="stat-desc">Languages known</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-number">4</div>
+            <div class="stat-desc">Creative disciplines</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-number">✓</div>
+            <div class="stat-desc">Internship ready</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-number">✓</div>
+            <div class="stat-desc">Freelance open</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="eyebrow">Skills</div>
+      <h2 class="section-heading">What I bring to<br><span>the table.</span></h2>
+      <div class="skills-grid">
+
+        <!-- Programming -->
+        <div class="skill-card reveal">
+          <div class="skill-card-title">💻 &nbsp;Programming</div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">C / C++</span><span class="s-pct">80%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.80"></div></div>
+          </div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">Python</span><span class="s-pct">75%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.75"></div></div>
+          </div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">Java</span><span class="s-pct">70%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.70"></div></div>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-card reveal">
+          <div class="skill-card-title">🌐 &nbsp;Web Development</div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">HTML / CSS</span><span class="s-pct">85%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.85"></div></div>
+          </div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">JavaScript</span><span class="s-pct">75%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.75"></div></div>
+          </div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">Responsive Design</span><span class="s-pct">82%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.82"></div></div>
+          </div>
+        </div>
+
+        <!-- Creative -->
+        <div class="skill-card reveal">
+          <div class="skill-card-title">🎨 &nbsp;Creative</div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">Graphic Designing</span><span class="s-pct">80%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.80"></div></div>
+          </div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">Video Editing</span><span class="s-pct">78%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.78"></div></div>
+          </div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">Content Creation</span><span class="s-pct">85%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.85"></div></div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card reveal">
+          <div class="skill-card-title">🛠️ &nbsp;Tools & Environment</div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">Ubuntu Linux</span><span class="s-pct">75%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.75"></div></div>
+          </div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">GitHub / Git</span><span class="s-pct">78%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.78"></div></div>
+          </div>
+          <div class="s-item">
+            <div class="s-meta"><span class="s-name">Command Line (CLI)</span><span class="s-pct">72%</span></div>
+            <div class="s-bar"><div class="s-fill" data-width="0.72"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS / SERVICES -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="eyebrow">What I Do</div>
+      <h2 class="section-heading">Services &amp; <span>interests.</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-tile reveal">
+          <div class="project-top">
+            <div class="project-emoji">🌐</div>
+            <div class="project-actions">
+              <a href="#contact" class="project-action" title="Hire me">→</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-name">Web Development</div>
+            <div class="project-desc">Building clean, responsive, and fast websites from scratch using HTML, CSS, and JavaScript. I focus on great UI, performance, and code quality.</div>
+            <div class="project-tags">
+              <span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JavaScript</span><span class="ptag">Responsive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-tile reveal">
+          <div class="project-top">
+            <div class="project-emoji">🎬</div>
+            <div class="project-actions">
+              <a href="#contact" class="project-action" title="Hire me">→</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-name">Video Editing</div>
+            <div class="project-desc">Crafting compelling video content — from short-form social media clips to full-length productions with smooth cuts, transitions, and colour grading.</div>
+            <div class="project-tags">
+              <span class="ptag">Editing</span><span class="ptag">Color Grading</span><span class="ptag">Motion</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-tile reveal">
+          <div class="project-top">
+            <div class="project-emoji">🎨</div>
+            <div class="project-actions">
+              <a href="#contact" class="project-action" title="Hire me">→</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-name">Graphic Designing</div>
+            <div class="project-desc">Designing logos, banners, social media graphics, posters, and brand identities. I combine creativity with purpose to make visuals that communicate clearly.</div>
+            <div class="project-tags">
+              <span class="ptag">Logo Design</span><span class="ptag">Branding</span><span class="ptag">Social Media</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-tile reveal">
+          <div class="project-top">
+            <div class="project-emoji">📱</div>
+            <div class="project-actions">
+              <a href="#contact" class="project-action" title="Hire me">→</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-name">Content Creation</div>
+            <div class="project-desc">Creating engaging digital content for blogs, social platforms, and YouTube. I understand how to write, visualise, and present ideas that attract and retain audiences.</div>
+            <div class="project-tags">
+              <span class="ptag">Social Media</span><span class="ptag">Copywriting</span><span class="ptag">YouTube</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-tile reveal">
+          <div class="project-top">
+            <div class="project-emoji">💻</div>
+            <div class="project-actions">
+              <a href="#contact" class="project-action" title="Hire me">→</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-name">Programming Projects</div>
+            <div class="project-desc">Building software using C/C++, Python, and Java. Comfortable working in Ubuntu Linux, version-controlling with Git, and collaborating on GitHub.</div>
+            <div class="project-tags">
+              <span class="ptag">C / C++</span><span class="ptag">Python</span><span class="ptag">Java</span><span class="ptag">Linux</span><span class="ptag">Git</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-tile reveal">
+          <div class="project-top">
+            <div class="project-emoji">🤝</div>
+            <div class="project-actions">
+              <a href="#contact" class="project-action" title="Hire me">→</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-name">Freelance &amp; Internship</div>
+            <div class="project-desc">I'm actively seeking internship roles and freelance collaborations. Whether it's a one-off project or a long-term position, I bring dedication, creativity, and reliability.</div>
+            <div class="project-tags">
+              <span class="ptag">Freelance</span><span class="ptag">Internship</span><span class="ptag">Remote</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="eyebrow">Contact</div>
+      <h2 class="section-heading">Let's work <span>together.</span></h2>
+      <div class="contact-layout">
+
+        <div class="contact-intro reveal">
+          <p>Whether you have an internship opportunity, a freelance project, or just want to collaborate — I'd love to hear from you. I reply to every message.</p>
+          <div class="contact-links">
+            <a href="mailto:alex@example.com" class="c-link"><div class="c-icon">✉</div>alex@example.com</a>
+            <a href="#" class="c-link"><div class="c-icon">⌥</div>github.com/alexchen</a>
+            <a href="https://www.linkedin.com/in/sivabalan-prabhu-251828363?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="c-link"><div class="c-icon">in</div>linkedin.com/in/sivabalanprabhu</a>
+            <a href="#" class="c-link"><div class="c-icon">𝕏</div>@alexchendev</a>
+          </div>
+        </div>
+
+        <div class="contact-form reveal">
+          <div class="f-group">
+            <label class="f-label" for="name">Name</label>
+            <input id="name" type="text" class="f-input" placeholder="Your full name"/>
+          </div>
+          <div class="f-group">
+            <label class="f-label" for="email">Email</label>
+            <input id="email" type="email" class="f-input" placeholder="you@example.com"/>
+          </div>
+          <div class="f-group">
+            <label class="f-label" for="message">Message</label>
+            <textarea id="message" class="f-textarea" placeholder="Tell me about the opportunity or project..."></textarea>
+          </div>
+          <button id="send-btn" class="f-submit">Send Message →</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© 2025 Alex Chen · Developer &amp; Creative Professional</p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">CV</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
