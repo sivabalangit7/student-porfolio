@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Videos — SivaBalan Portfolio</title>
+  <meta name="description" content="Watch SivaBalan's video editing showreel — cinematic cuts, colour grading, motion graphics and social media content."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="videos.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="index.html">SivaBalan<em>.</em></a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="videos.html" class="nav-active">🎬 Videos</a></li>
+      <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="vid-hero">
+    <div class="vh-bg"></div>
+    <div class="vh-inner">
+      <div class="eyebrow-v">Video Portfolio</div>
+      <h1 class="vh-title">Edited with <span class="hl-v">passion,</span><br>crafted with purpose.</h1>
+      <p class="vh-sub">A collection of video edits spanning cinematic short films, social media reels, brand content, and creative promos — all edited by SivaBalan.</p>
+      <div class="vh-stats">
+        <div class="vstat"><span class="vstat-n">10<em>+</em></span><span class="vstat-l">Videos Edited</span></div>
+        <div class="vstat-div"></div>
+        <div class="vstat"><span class="vstat-n">4K</span><span class="vstat-l">Export Quality</span></div>
+        <div class="vstat-div"></div>
+        <div class="vstat"><span class="vstat-n">∞</span><span class="vstat-l">Creative Ideas</span></div>
+      </div>
+    </div>
+    <div class="vh-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <div class="filter-bar-wrap">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+      <button class="filter-btn" data-filter="cinematic" id="filter-cinematic">🎥 Cinematic</button>
+      <button class="filter-btn" data-filter="reels" id="filter-reels">📱 Reels</button>
+      <button class="filter-btn" data-filter="brand" id="filter-brand">🏷️ Brand</button>
+      <button class="filter-btn" data-filter="motion" id="filter-motion">✨ Motion</button>
+    </div>
+  </div>
+
+  <!-- VIDEO GRID -->
+  <section id="videos-grid-section">
+    <div class="vg-inner">
+
+      <!-- Card 1 -->
+      <div class="vid-card reveal" data-tag="cinematic">
+        <div class="vid-thumb" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-title="Cinematic Sunset Edit" data-desc="A short cinematic edit capturing golden hour light with smooth colour grading and slow motion B-roll footage.">
+          <div class="thumb-bg" style="background: linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);"></div>
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-1">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="thumb-duration">2:34</div>
+          </div>
+          <div class="thumb-emoji">🌅</div>
+        </div>
+        <div class="vid-info">
+          <div class="vid-tag cinematic">Cinematic</div>
+          <div class="vid-title">Cinematic Sunset Edit</div>
+          <div class="vid-desc">Golden hour light, smooth colour grading and slow motion B-roll.</div>
+          <div class="vid-meta">
+            <span>🎨 Colour Graded</span>
+            <span>🎵 Sound Design</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="vid-card reveal" data-tag="reels">
+        <div class="vid-thumb" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-title="Instagram Reel — Fashion Drop" data-desc="Fast-paced fashion brand reel with beat-sync cuts, dynamic transitions and text animations.">
+          <div class="thumb-bg" style="background: linear-gradient(135deg,#2d1b69,#11998e,#38ef7d);"></div>
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-2">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="thumb-duration">0:30</div>
+          </div>
+          <div class="thumb-emoji">👗</div>
+        </div>
+        <div class="vid-info">
+          <div class="vid-tag reels">Reels</div>
+          <div class="vid-title">Fashion Drop Reel</div>
+          <div class="vid-desc">Beat-sync cuts, dynamic transitions and slick text animations.</div>
+          <div class="vid-meta">
+            <span>✂️ Beat Sync</span>
+            <span>💫 Transitions</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="vid-card reveal" data-tag="brand">
+        <div class="vid-thumb" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-title="Product Brand Promo" data-desc="Clean and professional brand video for a product launch, featuring smooth logo animation and product showcase.">
+          <div class="thumb-bg" style="background: linear-gradient(135deg,#0a1628,#1d4ed8,#3b82f6);"></div>
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-3">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="thumb-duration">1:15</div>
+          </div>
+          <div class="thumb-emoji">📦</div>
+        </div>
+        <div class="vid-info">
+          <div class="vid-tag brand">Brand</div>
+          <div class="vid-title">Product Launch Promo</div>
+          <div class="vid-desc">Clean brand reveal with logo animation and product footage.</div>
+          <div class="vid-meta">
+            <span>🏷️ Branding</span>
+            <span>🎯 Marketing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="vid-card reveal" data-tag="motion">
+        <div class="vid-thumb" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-title="Motion Graphics Intro" data-desc="Animated logo intro with particle effects, glitch transitions and kinetic typography for a YouTube channel.">
+          <div class="thumb-bg" style="background: linear-gradient(135deg,#1a1a2e,#e94560,#f5a623);"></div>
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-4">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="thumb-duration">0:15</div>
+          </div>
+          <div class="thumb-emoji">✨</div>
+        </div>
+        <div class="vid-info">
+          <div class="vid-tag motion">Motion</div>
+          <div class="vid-title">YouTube Channel Intro</div>
+          <div class="vid-desc">Particle effects, glitch transitions and kinetic typography.</div>
+          <div class="vid-meta">
+            <span>✨ Motion FX</span>
+            <span>💥 Glitch</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="vid-card reveal" data-tag="cinematic">
+        <div class="vid-thumb" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-title="Travel Montage — South India" data-desc="A cinematic travel montage exploring South India's landscapes with aerial shots and ambient soundtrack.">
+          <div class="thumb-bg" style="background: linear-gradient(135deg,#134e5e,#71b280);"></div>
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-5">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="thumb-duration">3:47</div>
+          </div>
+          <div class="thumb-emoji">✈️</div>
+        </div>
+        <div class="vid-info">
+          <div class="vid-tag cinematic">Cinematic</div>
+          <div class="vid-title">Travel Montage — South India</div>
+          <div class="vid-desc">Aerial shots and ambient soundtrack exploring South India's landscapes.</div>
+          <div class="vid-meta">
+            <span>🌿 Nature</span>
+            <span>🎵 Ambient</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="vid-card reveal" data-tag="reels">
+        <div class="vid-thumb" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-title="Food Reel — Restaurant Promo" data-desc="Mouth-watering food reel for a restaurant with macro shots, steam effects and vibrant colour grading.">
+          <div class="thumb-bg" style="background: linear-gradient(135deg,#c94b4b,#4b134f);"></div>
+          <div class="thumb-overlay">
+            <div class="play-btn" id="play-6">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="thumb-duration">0:45</div>
+          </div>
+          <div class="thumb-emoji">🍽️</div>
+        </div>
+        <div class="vid-info">
+          <div class="vid-tag reels">Reels</div>
+          <div class="vid-title">Food Reel — Restaurant Promo</div>
+          <div class="vid-desc">Macro shots, steam effects and vibrant colour grading for a food brand.</div>
+          <div class="vid-meta">
+            <span>🍴 Food</span>
+            <span>🌈 Colour</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add Your Video CTA Card -->
+      <div class="vid-card vid-card--cta reveal" id="add-video-cta">
+        <div class="cta-inner">
+          <div class="cta-icon">🎬</div>
+          <div class="cta-title">More Coming Soon</div>
+          <div class="cta-desc">Upload your video link and I'll feature it here. Every project tells a story.</div>
+          <a href="index.html#contact" class="btn btn-primary" id="vid-hire-btn">Hire Me for a Video →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SHOWREEL CTA BANNER -->
+  <section id="showreel-banner">
+    <div class="sb-inner">
+      <div class="sb-left reveal">
+        <div class="eyebrow-v" style="color:#60a5fa;">Showreel</div>
+        <h2 class="sb-title">Want to see the <span>full reel?</span></h2>
+        <p class="sb-desc">Check out my complete showreel on YouTube, or reach out directly to discuss your video project.</p>
+        <div class="sb-actions">
+          <a href="https://youtube.com" target="_blank" class="btn btn-primary" id="youtube-btn">▶ Watch on YouTube</a>
+          <a href="index.html#contact" class="btn btn-outline" id="collab-btn" style="color:#fff;border-color:rgba(255,255,255,.25);">Let's Collaborate</a>
+        </div>
+      </div>
+      <div class="sb-right reveal">
+        <div class="sb-feature-card">
+          <div class="sfc-thumb">
+            <div class="play-btn play-btn--lg" id="showreel-play">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <div class="sfc-info">
+            <div class="sfc-title">Official Showreel 2026</div>
+            <div class="sfc-meta">Best of SivaBalan · 4K · 3:00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© 2026 SivaBalan · Developer &amp; Creative Professional</p>
+      <div class="footer-links">
+        <a href="https://github.com/sivabalangit7" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/sivabalan-prabhu-251828363" target="_blank">LinkedIn</a>
+        <a href="index.html">Portfolio</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="vid-modal" class="vid-modal" role="dialog" aria-modal="true" aria-label="Video Player">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-box">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-title">Video Title</div>
+        <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-player">
+        <iframe id="modal-iframe" src="" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen title="Video Player"></iframe>
+      </div>
+      <p class="modal-desc" id="modal-desc"></p>
+    </div>
+  </div>
+
+  <!-- FLOATING WHATSAPP -->
+  <a id="whatsapp-float"
+     href="https://wa.me/917339692006?text=Hi%20SivaBalan%2C%20I%20saw%20your%20video%20portfolio%20and%20I%27d%20love%20to%20work%20with%20you!"
+     target="_blank" rel="noopener noreferrer"
+     title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#fff" width="22" height="22">
+      <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.736 5.469 2.027 7.769L0 32l8.468-2.007A15.93 15.93 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.28 13.28 0 01-6.784-1.856l-.487-.29-5.024 1.19 1.213-4.893-.317-.5A13.27 13.27 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.293-9.907c-.4-.2-2.363-1.166-2.729-1.3-.367-.133-.634-.2-.9.2-.267.4-1.033 1.3-1.267 1.566-.233.267-.467.3-.867.1-.4-.2-1.687-.622-3.213-1.982-1.187-1.059-1.989-2.367-2.222-2.767-.233-.4-.025-.616.175-.815.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.167-1.233-2.967-.325-.78-.655-.674-.9-.686l-.767-.013c-.267 0-.7.1-1.067.5-.367.4-1.4 1.367-1.4 3.333 0 1.967 1.433 3.867 1.633 4.133.2.267 2.82 4.307 6.833 6.04.955.413 1.7.66 2.28.845.958.306 1.83.263 2.52.16.769-.115 2.363-.966 2.696-1.9.333-.933.333-1.733.233-1.9-.1-.167-.367-.267-.767-.467z"/>
+    </svg>
+    <span class="wa-label">WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+  <script src="videos.js"></script>
+</body>
+</html>
